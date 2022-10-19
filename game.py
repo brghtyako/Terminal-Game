@@ -85,7 +85,7 @@ def calculateDamage(dmg,dd):
     return (max(dmg,dd+1)-dd)*5
 def play(name,bossDef,bossAtt,bossHp):
 
-    print("Get ready. Now it's time to fight the first monster. It called {bossName}. It can attack damage is {att}, his defence point is {dd} and his hp is {hp}.".format(bossName=name,att=bossAtt,dd=bossDef,hp=bossHp))
+    print("Get ready. Now it's time to fight with the monster. It called {bossName}. It can attack damage is {att}, his defence point is {dd} and his hp is {hp}.".format(bossName=name,att=bossAtt,dd=bossDef,hp=bossHp))
     time.sleep(6)
     localHp=bossHp
     hp=100
